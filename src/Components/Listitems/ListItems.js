@@ -12,9 +12,9 @@ function ListItems(props){
              props.setUpdate(e.target.value,item.key)}}/>
         <span>
        
-        <FontAwesomeIcon className="faicons" onClick={() => {
+        <i className="fas fa-trash-restore faicons" onClick={() => {
             props.deleteItem(item.key)
-        }} icon="trash" />
+        }}></i>
         </span>
      </p>
      

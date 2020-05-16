@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import ListItems from './ListItems'
-
+import ListItems from './Components/Listitems/ListItems'
 
 class App extends React.Component {
   constructor(props){
